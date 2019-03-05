@@ -20,7 +20,7 @@ define('PBPAYMENT_TITLE_2', 'Настройка приема электронн�
 
 function pbpayment_init() {
 
-    load_plugin_textdomain( 'wpb-wofa', false, dirname( plugin_basename( __FILE__ ) ). '/languages/' );
+    load_plugin_textdomain( 'woo-pochtabank', false, dirname( plugin_basename( __FILE__ ) ). '/languages/' );
 	require_once('statuses.php'); 
 
 }
